@@ -233,7 +233,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 150px 0 100px 0;
+  padding: 100px 0 10px 0;
  /* background-image: url('./assets/img/banner-bg.png');*/
   background: linear-gradient(148.89deg, #000000 7.61%,#43434343 59.99%);
   background-position: top center;
@@ -302,46 +302,66 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
-/************ Skills Css ************/
-.skill {
-  padding: 0 0 50px 0;
+/************ About Css ************/
+.about {
+  padding: 0 0 75px 0;
   position: relative;
   background: #000000;
+  /*background: linear-gradient(to right, #c6ffdd, #f7797d);*/
+  /*add background image with splotches*/
 }
-.skill-bx {
+.about-bx {
   background: #121212;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
 }
-.skill h2 {
+.about h2 {
 	font-size: 45px;
 	font-weight: 700;
+  padding: 0 0 20px 0;
 }
-.skill p {
+.about p {
     color: #B8B8B8;
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    margin: 14px 0 75px 0;
+    margin: 5px 0 20px 0;
 }
-.skill-slider {
+.about-slider {
   width: 80%;
   margin: 0 auto;
   position: relative;
 }
-.skill-slider .item img {
+.about-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
 }
-.background-image-left {
+.about-image-left {
   top: 28%;
   position: absolute;
   bottom: 0;
   width: 40%;
   z-index: -4;
 }
+
+.about ul{
+  columns: 2;
+  color: #B8B8B8;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+}
+
+
+.about img{
+  border-radius: 20%;
+  transition: 0.3s ease-in-out;
+	-webkit-transition: .3s ease-in-out;
+  
+}
+
 
 /************ Jobs Css ************/
 .job {
@@ -388,7 +408,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background: linear-gradient(148.89deg, #43434343 7.61%,#000000 59.99%);
+  /*background: linear-gradient(148.89deg, #43434343 7.61%,#000000 59.99%);*/
+  background: #000000;
 }
 .project h2 {
 	font-size: 45px;
@@ -397,12 +418,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project p {
   color: #B8B8B8;
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px auto 30px auto;
+  padding: 10px 10px 10px 10px;
   text-align: center;
-  width: 56%;
+  width: 80%;
 }
 .project .nav.nav-pills {
   width: 72%;
@@ -457,58 +479,64 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
-.proj-imgbx {
+
+.panel {
   position: relative;
-  border-radius: 30px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ccc;
   overflow: hidden;
-  margin-bottom: 24px;
 }
-.proj-imgbx::before {
-  content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  opacity: 0.85;
+
+.panel-title {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 0;
-  transition: 0.4s ease-in-out;
+  height: 50px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: background-color 0.5s;
 }
-.proj-imgbx:hover::before {
-  height: 100%;
+
+.panel:hover .panel-title {
+  background-color: rgba(255, 255, 255, 1);
 }
-.proj-txtx {
+
+.panel-content {
   position: absolute;
-  text-align: center;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.5s ease-in-out;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 50px);
+  padding: 20px;
+  box-sizing: border-box;
   opacity: 0;
-  width: 100%;
+  transition: opacity 0.5s;
 }
-.proj-imgbx:hover .proj-txtx {
-  top: 50%;
+
+.panel:hover .panel-content {
   opacity: 1;
 }
-.proj-txtx h4 {
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1.1em;
+
+.panel p.hover-text {
+  display: none;
 }
-.proj-txtx span {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 15px;
-  letter-spacing: 0.8px;
+
+.panel:hover p.hover-text {
+  display: block;
+  animation: fade-in 0.5s;
 }
-.background-image-right {
-  top: 20%;
-  position: absolute;
-  bottom: 0;
-  width: 35%;
-  right: 0;
-  z-index: -4;
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
+
+
+
+
 
 /************ Projects Css ************/
 .contact {
