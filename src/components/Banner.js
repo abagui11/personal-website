@@ -61,7 +61,7 @@ export const Banner = () => {
                         <a href="mailto:bagui.arpan@gmail.com"><button> Let's connect <ArrowRightCircle size={25} /></button></a>
                     </Col>
 
-                    <Col xs={12} md={6}  className="pt- -200">
+                    <Col xs={12} md={6}  className="pt- -200" id="desktop-only">
                             
                             <Spline scene="https://prod.spline.design/C2cKZkCLDUQbgzcU/scene.splinecode" />
                     
