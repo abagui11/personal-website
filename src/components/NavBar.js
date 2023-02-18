@@ -4,6 +4,7 @@ import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon2 from '../assets/img/twitter.png'
 import navIcon3 from '../assets/img/github.png'
+import resume from './Arpan_Bagui_Resume.pdf'
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -47,7 +48,7 @@ export const NavBar = () => {
                     <a href = "https://twitter.com/Arpan_BagHolder"><img src={navIcon2} alt="" /></a>
                     <a href = "https://github.com/abagui11"><img src={navIcon3} alt="" /></a>
                 </div>
-                <a target="_blank" href="../assets/img/Arpan_Bagui_Resume.pdf" download><button className ="vvd"><span>Resume</span></button></a>
+                <a target="_blank" href={resume}><button className ="vvd"><span>Resume</span></button></a>
             </span>
             </Navbar.Collapse>
         </Container>
