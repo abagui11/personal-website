@@ -13,13 +13,13 @@ export const About = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <div className="about-bx wow zoomIn">
+                        <div className="about-bx wow zoomIn" >
                             
                             <Container>
                                 <Row className="align-items-center">
-                                    <Col xs={12} md={8} xl={8} className="pr-5 square border-end">
+                                    <Col xs={12} md={8} xl={8} className="pr-5 square">
                                         <h2>About</h2>
-                                        <p>Hi, I'm a college student who likes problem-solving. From analyzing companies and industries, to running my <a target="_blank" href="https://www.vo2.fans/">own startup</a>, to building things just for the hell of it,
+                                        <p>Hi, I'm a college student who likes <b>problem-solving</b>. From analyzing companies and industries, to running my <a target="_blank" href="https://www.vo2.fans/">own startup</a>, to building things just for the hell of it,
                                         I love diving into interesting topics and uncovering something about them others might have missed (or just making cool, pretty things). Hi Linda &lt;3</p>
                                         
 
@@ -27,16 +27,16 @@ export const About = () => {
                                         
                                         <p>Here are some relevant skillsets that I'm currently focusing on:</p>
                                         <ul>
-                                            <li>Data analysis in Python and Excel</li>
-                                            <li>Equity and blockchain research</li>
-                                            <li>Application design in Java</li>
-                                            <li>Applied probability models</li>
-                                            <li>Script writing in Python</li>
-                                            <li>Full stack web dev with MERN</li>
+                                            <li>Data analysis in <b>SQL, Python, and Excel</b></li>
+                                            <li><b>Equity</b> and <b>blockchain</b> research</li>
+                                            <li>Application design in <b>Java</b></li>
+                                            <li>Forecasting with <b>probability models</b></li>
+                                            <li>Script writing in <b>Python</b></li>
+                                            <li>Full stack web dev with <b>MERN</b></li>
                                         </ul>
                                     </Col>
-                                    <Col xs={12} md={4} xl={4}>
-                                        <img style={{ width: 200, height: 200 }} src = {pfpImg} />
+                                    <Col xs={12} md={4} xl={4} >
+                                        <img style={{ width: 250, height: 250 }} src = {pfpImg} class="img-fluid mx-auto d-block"/>
                                     </Col>
                                 </Row>
                             </Container>

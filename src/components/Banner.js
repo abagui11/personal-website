@@ -58,7 +58,7 @@ export const Banner = () => {
                         <h1>{'Hi I\'m Arpan Bagui:'}</h1>
                         <h2>{'- '}<span className="wrap">{text}</span></h2>
                         <p>I'm a student at Penn studying Statistics and Computer Science. My interests range from blockchain, to consumer tech, to markets. Pleasure to meet!</p>
-                        <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
+                        <a href="mailto:bagui.arpan@gmail.com"><button> Let's connect <ArrowRightCircle size={25} /></button></a>
                     </Col>
 
                     <Col xs={12} md={6}  className="pt- -200">

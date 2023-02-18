@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container} from "react-bootstrap";
 import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg'
-import navIcon2 from '../assets/img/nav-icon2.svg'
-import navIcon3 from '../assets/img/nav-icon3.svg'
+import navIcon2 from '../assets/img/twitter.png'
+import navIcon3 from '../assets/img/github.png'
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -43,11 +43,11 @@ export const NavBar = () => {
             </Nav>
             <span className = "navbar-text">
                 <div className = "social-icon">
-                    <a href = "#"><img src={navIcon1} alt="" /></a>
-                    <a href = "#"><img src={navIcon2} alt="" /></a>
-                    <a href = "#"><img src={navIcon3} alt="" /></a>
+                    <a href = "https://www.linkedin.com/in/arpan-bagui/"><img src={navIcon1} alt="" /></a>
+                    <a href = "https://twitter.com/Arpan_BagHolder"><img src={navIcon2} alt="" /></a>
+                    <a href = "https://github.com/abagui11"><img src={navIcon3} alt="" /></a>
                 </div>
-                <button className ="vvd" onClick={() => console.log('connect')}><span>Resume</span></button>
+                <a target="_blank" href="../assets/img/Arpan_Bagui_Resume.pdf" download><button className ="vvd"><span>Resume</span></button></a>
             </span>
             </Navbar.Collapse>
         </Container>
