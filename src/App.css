@@ -759,3 +759,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 
 }
+
+@media (min-width: 1000px) {
+  #mobile-only{
+    display:none;
+  }
+}

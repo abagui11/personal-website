@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Col, Container, Row} from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
 import Spline from '@splinetool/react-spline';
+import splinegif from '../assets/img/personal-website-spline.gif'
 
 
 
@@ -54,7 +55,7 @@ export const Banner = () => {
                     
 
                     <Col xs={12} md={6} xl={6}>
-                        
+                        <img id="mobile-only" src={splinegif} alt="graphic"/>
                         <h1>{'Hi I\'m Arpan Bagui:'}</h1>
                         <h2>{'- '}<span className="wrap">{text}</span></h2>
                         <p>I'm a student at Penn studying Statistics and Computer Science. My interests range from blockchain, to consumer tech, to markets. Pleasure to meet!</p>
