@@ -525,6 +525,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
   display: flex;
   justify-content: center;
+  border: 1px solid white;
   align-items: center;
   /*linear-gradient(275deg, rgba(245,50,159) 20%, rgba(250,175,240,1) 30%, rgba(200,185,255,1) 40%, rgba(220,240,255,1) 50%, rgba(180,255,255,1) 60%, rgba(100,255,230,1) 80% ) 1;*/
   background: #000;
@@ -753,6 +754,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     overflow: hidden;
     display: flex;
     justify-content: center;
+    border: 1px solid white;
     align-items: center;
     /*linear-gradient(275deg, rgba(245,50,159) 20%, rgba(250,175,240,1) 30%, rgba(200,185,255,1) 40%, rgba(220,240,255,1) 50%, rgba(180,255,255,1) 60%, rgba(100,255,230,1) 80% ) 1;*/
     background: #000;
