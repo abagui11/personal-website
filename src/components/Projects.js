@@ -5,8 +5,8 @@ import { Col, Container, Row} from "react-bootstrap"
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import social_media_crypto_prices from './Social_Media_Crypto_Prices.pdf'
-import netflix from './evolution_gaming.pdf'
-import evo from './Netflix_Bear_Thesis.pdf'
+import evo from './evolution_gaming.pdf'
+import netflix from './Netflix_Bear_Thesis.pdf'
 import etsy from './Etsy_Long_Thesis.pdf'
 import cardano from './cardano.pdf'
 import polkadot from './polkadot.pdf'
@@ -142,7 +142,7 @@ export const Projects = () => {
                             </a>
                             </div> 
                             <div className="item">
-                            <a target = "_blank" href = {netflix}>
+                            <a target = "_blank" href = {evo}>
                                 <div class="panel">
                                     <h5 class="panel-title">Evolution Gaming Long Thesis, 2/15/21</h5>
                                     <div class="panel-content">
