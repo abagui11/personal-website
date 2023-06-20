@@ -10,6 +10,8 @@ import netflix from './Netflix_Bear_Thesis.pdf'
 import etsy from './Etsy_Long_Thesis.pdf'
 import cardano from './cardano.pdf'
 import polkadot from './polkadot.pdf'
+import nbd_legumes from './NBD Models on Legumes.pdf'
+import wg_nft_marketplaces from './NFT Marketplace.pdf'
 
 
 export const Projects = () => {
@@ -93,6 +95,28 @@ export const Projects = () => {
                         
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
+                                <a target = "_blank" href = {wg_nft_marketplaces}>
+                                <div class="panel">
+                                    <h5 class="panel-title">Gamma-Weibull Model and NFT Marketplaces</h5>
+                                    <div class="panel-content">
+                                        <p>A statistical analysis that applies a Gamma-Weibull distribution on user growth for Coinbase and LooksRare to find some interesting takeaways.</p>
+                                    </div>
+                                </div>
+                                </a>
+                            </div> 
+                            
+                            <div className="item">
+                                <a target = "_blank" href = {nbd_legumes}>
+                                <div class="panel">
+                                    <h5 class="panel-title">NBD Models and Legumes</h5>
+                                    <div class="panel-content">
+                                        <p>A statistical analysis that applies a negative-binomial distribution on count data for legumes to see if we can predict their nodule growth.</p>
+                                    </div>
+                                </div>
+                                </a>
+                            </div> 
+                            
+                            <div className="item">
                                 <a target = "_blank" href = "https://github.com/abagui11/crypto-report-generator">
                                 <div class="panel">
                                     <h5 class="panel-title">Crypto Report Generator</h5>
@@ -108,7 +132,7 @@ export const Projects = () => {
                                 <div class="panel">
                                     <h5 class="panel-title">Predicting Price through Social Media</h5>
                                     <div class="panel-content">
-                                        <p>A statistical report that analyze the correlation between various social medias and sentiment towards token price. No significant correlation was found.</p>
+                                        <p>A statistical report that analyzes the correlation between various social medias and sentiment towards token price. No significant correlation was found.</p>
                                     </div>
                                 </div>
                                 </a>
