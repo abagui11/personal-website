@@ -46,6 +46,16 @@ export const Projects = () => {
     
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
+                                <a target = "_blank" href = "https://github.com/abagui11/dydx-stat-arby">
+                                <div class="panel">
+                                    <h5 class="panel-title">DYDX Trading Bot</h5>
+                                    <div class="panel-content">
+                                        <p>A bot that uses the DYDX perpetuals exchange to trade cryptocurrencies based on a statistical arbitrage strategy. Hosted on AWS, profitability uncertain.</p>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div className="item">
                                 <a target = "_blank" href = "https://github.com/orgs/Potent-Network/repositories">
                                 <div class="panel">
                                     <h5 class="panel-title">VO2 - Athlete NFT Platform</h5>
