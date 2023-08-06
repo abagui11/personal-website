@@ -70,7 +70,7 @@ export const Projects = () => {
                                 <div class="panel">
                                     <h5 class="panel-title">Crypto Trading Algorithm</h5>
                                     <div class="panel-content">
-                                        <p>A trading algorithm that makes buys and sells on various crypto coins based on standard deviation movements of social media movement. Sole developer.</p>
+                                        <p>A trading algorithm that makes buy and sell recommendations on various crypto coins based on standard deviation movements of social media movement. Sole developer.</p>
                                     </div>
                                 </div>
                                 </a>
