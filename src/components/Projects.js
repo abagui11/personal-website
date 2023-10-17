@@ -152,7 +152,7 @@ export const Projects = () => {
                         <br/>
                         <br/>
                         <h2>Research Reports</h2>
-                        <p id = "number_count">4 total</p>
+                        <p id = "number_count">12 total</p>
                         
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
