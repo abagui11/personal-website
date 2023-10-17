@@ -156,6 +156,66 @@ export const Projects = () => {
                         
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
+                                <a target = "_blank" href = "https://medium.com/@bagui.arpan/market-analysis-liquid-staking-derivatives-4bdbf6b65c84">
+                                    <div class="panel">
+                                        <h5 class="panel-title">Market Analysis: Liquid Staking Derivatives</h5>
+                                        <div class="panel-content">
+                                            <p>A market analysis on liquid staking derivatives and their profitability.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className="item">
+                                <a target = "_blank" href = "https://medium.com/@bagui.arpan/market-analysis-on-chain-debt-80a2307e8798">
+                                    <div class="panel">
+                                        <h5 class="panel-title">Market Analysis: On-Chain Debt</h5>
+                                        <div class="panel-content">
+                                            <p>A market analysis on on-chain debt financing solutions and tokenized bond protocols.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className="item">
+                                <a target = "_blank" href = "https://medium.com/@bagui.arpan/market-size-crypto-payment-processing-df315d10ccb0">
+                                    <div class="panel">
+                                        <h5 class="panel-title">Market Size: Crypto Payment Processing</h5>
+                                        <div class="panel-content">
+                                            <p>A market sizing analysis on payment processing layers for cryptocurrencies.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className="item">
+                                <a target = "_blank" href = "https://medium.com/@bagui.arpan/market-size-web3-hot-wallets-9c25fbb97419">
+                                    <div class="panel">
+                                        <h5 class="panel-title">Market Size: Web3 Hot Wallets</h5>
+                                        <div class="panel-content">
+                                            <p>A market sizing analysis hot wallet providers in Web3.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div> 
+                            <div className="item">
+                                <a target = "_blank" href = "https://medium.com/@bagui.arpan/market-size-defi-lending-906bb82b9c29">
+                                    <div class="panel">
+                                        <h5 class="panel-title">Market Size: DeFi Lending</h5>
+                                        <div class="panel-content">
+                                            <p>A market sizing analysis of borrowing and lending protocols on DeFi.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div> 
+                            <div className="item">
+                                <a target = "_blank" href = "https://medium.com/@bagui.arpan/market-size-cross-chain-collateralization-fd00fd1ea113">
+                                    <div class="panel">
+                                        <h5 class="panel-title">Market Size: Cross-Chain Collateralization</h5>
+                                        <div class="panel-content">
+                                            <p>A market sizing analysis of the cross-chain collateralization and unified credit layer market.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div> 
+                            <div className="item">
                             <a target = "_blank" href = {netflix}>
                                 <div class="panel">
                                     <h5 class="panel-title">Netflix Bear Thesis, 1/15/22</h5>
