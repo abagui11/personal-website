@@ -58,7 +58,7 @@ export const Banner = () => {
                         <img id="mobile-only" src={splinegif} alt="graphic"/>
                         <h1>{'Hi I\'m Arpan Bagui:'}</h1>
                         <h2>{'- '}<span className="wrap">{text}</span></h2>
-                        <p>I'm a student at Penn studying Statistics and Computer Science. My interests range from blockchain, to consumer tech, to markets. Pleasure to meet!</p>
+                        <p>I'm a student at Penn studying Statistics and Computer Science. My interests range from fintech, to sustainability, to blockchain (specifically DePIN). Pleasure to meet!</p>
                         <a href="mailto:bagui.arpan@gmail.com"><button> Let's connect <ArrowRightCircle size={25} /></button></a>
                     </Col>
 
