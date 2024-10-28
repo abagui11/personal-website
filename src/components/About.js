@@ -20,8 +20,8 @@ export const About = () => {
                                     <Col xs={12} md={8} xl={8} className="pr-5 square">
                                         <h2>About</h2>
                                         <p>Hi, I'm a university student who likes problem-solving. From analyzing companies and industries, to founding my own startup, to running data and statistical analyses,
-                                        I love diving into interesting topics and uncovering something about them others might have missed (or just making cool, pretty things). I also have a strong interest
-                                        in re-conceptualizing how we use technology to interact with the natural world. Broadly speaking, I want to bridge ecological thinking with innovation. </p>
+                                        I love diving into interesting topics and uncovering something about them others might have missed (or just making cool things). I also have a strong interest
+                                        in re-conceptualizing how we use technology to interact with the natural world, and generally prefer technology that genuinely helps people. Broadly speaking, I want to bridge ecological thinking with innovation. </p>
                                         
 
                                         <p>This is a nice little spot where I can organize my projects neatly and share them.</p>
