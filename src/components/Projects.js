@@ -46,6 +46,16 @@ export const Projects = () => {
     
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
+                                <a target = "_blank" href = "https://www.playlistpot.com/">
+                                <div class="panel">
+                                    <h5 class="panel-title">Playlist Pot</h5>
+                                    <div class="panel-content">
+                                        <p>A simple way to make playlists by mixing your favorite artists, albums, and tracks together.</p>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div className="item">
                                 <a target = "_blank" href = "https://github.com/abagui11/dydx-stat-arby">
                                 <div class="panel">
                                     <h5 class="panel-title">DYDX Trading Bot</h5>
