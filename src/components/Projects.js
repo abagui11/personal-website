@@ -42,9 +42,19 @@ export const Projects = () => {
                 <div className="col-12">
                     <div className="job-bx wow zoomIn">
                         <h2>Apps and Scripts</h2>
-                        <p id = "number_count">4 total</p>
+                        <p id = "number_count">7 total</p>
     
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                            <div className="item">
+                                <a target = "_blank" href = "https://github.com/abagui11/letterboxd-for-albums">
+                                <div class="panel">
+                                    <h5 class="panel-title">Letterboxd for Music</h5>
+                                    <div class="panel-content">
+                                        <p>A boilerplate letterboxd clone that for artists and albums. Frontend: React | Backend: Node.js, Express | Database: PostgreSQL</p>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
                             <div className="item">
                                 <a target = "_blank" href = "https://www.playlistpot.com/">
                                 <div class="panel">
